@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:padding="10dp"
+  android:layout_height="wrap_content"
+  android:background="@drawable/background">
+
+  <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="KELAS ANDA"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#000000"/>
+ 
+  <TableLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:paddingRight="5dp"
+     android:layout_marginTop="20dp">
+    <TableRow
+        android:layout_marginBottom="5dp">
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="16sp"
+      	android:layout_height="wrap_content"
+      	android:text="Kelas"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="16sp"
+      	android:layout_height="wrap_content"
+      	android:text="   :  "
+        android:textColor="#000000"/>
+  	<TextView
+  	    android:id="@+id/kelas_nama"
+      	android:layout_width="wrap_content"
+        android:textSize="16sp"
+      	android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	</TableRow>
+  	<TableRow
+  	    android:layout_marginBottom="5dp">
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="16sp"
+      	android:layout_height="wrap_content"
+      	android:text="Wali Kelas"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="16sp"
+      	android:layout_height="wrap_content"
+      	android:text="   :  "
+        android:textColor="#000000"/>
+  	<TextView
+  	    android:id="@+id/kelas_wali"
+      	android:layout_width="wrap_content"
+        android:textSize="16sp"
+      	android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	</TableRow>
+  	<TableRow
+  	    android:layout_marginBottom="5dp">
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="16sp"
+      	android:layout_height="wrap_content"
+      	android:text="Ketua Kelas"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="16sp"
+      	android:layout_height="wrap_content"
+      	android:text="   :  "
+        android:textColor="#000000"/>
+  	<TextView
+  	    android:id="@+id/kelas_ketua"
+      	android:layout_width="wrap_content"
+        android:textSize="16sp"
+      	android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	</TableRow>
+  	</TableLayout>
+  	<Button 
+  	    android:id="@+id/kelas_btnsiswa"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="match_parent"
+  	    android:text="Lihat Semua Siswa"
+  	    android:textStyle="bold"
+  	    android:layout_gravity="center"
+  	    android:layout_marginTop="50dip"/>
+ </LinearLayout>

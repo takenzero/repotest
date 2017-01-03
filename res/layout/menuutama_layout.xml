@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.skripsi.mlearningsman1watampone.MenuUtamaLayout
+    android:background="@drawable/background_menuutama"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <Button
+        android:id="@+id/btn_profil"
+        android:text="Profil Anda"
+        android:drawableTop="@drawable/btn_profil"
+        style="@style/MenuUtamaButton" />
+    <Button
+        android:id="@+id/btn_kelas"
+        android:text="Kelas Anda"
+        android:drawableTop="@drawable/btn_kelas"
+        style="@style/MenuUtamaButton" />
+    <Button
+        android:id="@+id/btn_matapelajaran"
+        android:text="Mata Pelajaran"
+        android:drawableTop="@drawable/btn_matapelajaran"
+        style="@style/MenuUtamaButton" />
+    <Button
+        android:id="@+id/btn_Materi"
+        android:text="Download Materi"
+        android:drawableTop="@drawable/btn_downloadmateri"
+        style="@style/MenuUtamaButton" />
+    <Button
+        android:id="@+id/btn_tugas"
+        android:text="Tugas/Quiz"
+        android:drawableTop="@drawable/btn_tugas"
+        style="@style/MenuUtamaButton" />
+    <Button
+        android:id="@+id/btn_nilai"
+        android:text="Nilai Tugas/Quiz"
+        android:drawableTop="@drawable/btn_nilai"
+        style="@style/MenuUtamaButton" />
+    <Button android:id="@+id/btn_about"
+        android:text="About"
+        android:drawableTop="@drawable/btn_about"
+        style="@style/MenuUtamaButton" />
+    <Button
+        android:id="@+id/btn_exit"
+        android:text="Keluar"
+        android:drawableTop="@drawable/btn_exit"
+        style="@style/MenuUtamaButton" />
+</com.skripsi.mlearningsman1watampone.MenuUtamaLayout>

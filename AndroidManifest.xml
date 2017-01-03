@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skripsi.mlearningsman1watampone"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.MenuUtamaActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.ProfilActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.KelasActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.SemuaSiswaActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.MatapelajaranActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.DownloadMateriActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.ListDownloadActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.DownloadFileActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.TugasActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.TopikTugasActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.NilaiActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.TopikNilaiActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.DetailNilaiActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.InformasiActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.SoalPgActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.SoalEssayActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.SoalActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.DetailPgActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.DetailEssayActivity" >
+        </activity>
+        <activity
+            android:name="com.skripsi.mlearningsman1watampone.AboutActivity" >
+        </activity>
+    </application>
+
+</manifest>

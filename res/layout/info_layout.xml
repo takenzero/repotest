@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:padding="10dp"
+  android:layout_height="wrap_content"
+  android:background="@drawable/background">
+
+  <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="INFORMASI"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="20dip"
+            android:textColor="#000000"/>
+ <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="1dp"
+    	android:orientation="vertical"
+    	android:background="#3b3b3b" />
+ <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="5dip">
+ <LinearLayout
+ 	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content">
+ <TableLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:paddingRight="5dp">
+    <TableRow>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+      	android:text="1. "
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="Pastikan Anda terhubung ke jaringan internet yang baik dan terjamin."/>
+  	</TableRow>
+  	<TableRow>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+      	android:text="2. "
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="Soal terdiri dari soal pilihan ganda dan essay."/>
+  	</TableRow>
+  	<TableRow>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+      	android:text="3. "
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="Soal yang telah dikerjakan tidak dapat dikerjakan kembali atau mengganti jawaban sebelumnya."/>
+  	</TableRow>
+  	<TableRow>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+      	android:text="4. "
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="Hubungi admin atau guru walikelas maupun guru matapelajaran yang bersangkutan jika Anda mengalami kesulitan atau menemui masalah."/>
+  	</TableRow>
+  	
+  	</TableLayout>
+  	<Button 
+	    android:id="@+id/info_btn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="20dp"
+	    android:text="Kerjakan Soal"
+	    android:padding="5dp"/>
+  	</LinearLayout>
+   </ScrollView>
+</LinearLayout>

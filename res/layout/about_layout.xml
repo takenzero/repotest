@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:padding="10dp"
+  android:layout_height="wrap_content"
+  android:background="@drawable/background">
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="ABOUT"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:paddingTop="10dip"
+    android:paddingBottom="10dip"
+    android:textColor="#000000"/>
+ <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:orientation="vertical"
+    android:background="#3b3b3b" />
+ <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="5dip">
+ <LinearLayout
+ 	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content">
+ 	<TextView
+      android:layout_marginTop="5dp"
+      android:layout_width="wrap_content"
+      android:textSize="16sp"
+      android:layout_height="wrap_content"
+      android:textColor="#000000"
+      android:text="Aplikasi ini dibuat untuk melengkapi Tugas Akhir program Sarjana (S1) pada"
+      android:gravity="center_horizontal"/>
+  	<TextView
+      android:layout_marginTop="15dp"
+      android:layout_width="wrap_content"
+      android:textSize="16sp"
+      android:layout_height="wrap_content"
+      android:textColor="#000000"
+      android:text="SEKOLAH TINGGI MANAJEMEN INFORMATIKA DAN KOMPUTER (STMIK)\nDIPANEGARA MAKASSAR"
+      android:gravity="center_horizontal"
+      android:textStyle="bold"/>
+   	<TextView
+      android:layout_marginTop="15dp"
+      android:layout_width="wrap_content"
+      android:textSize="16sp"
+      android:layout_height="wrap_content"
+      android:textColor="#000000"
+      android:text="OLEH :"
+      android:layout_gravity="center_horizontal"/>
+   	<LinearLayout
+ 		android:orientation="horizontal"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="10dp">
+  		<ImageView
+	    	android:layout_width="120dip"
+	    	android:layout_height="170dip"
+	    	android:layout_gravity="center"
+	    	android:padding="5dp"
+	    	android:layout_weight="0.5"
+	    	android:src="@drawable/a"/>
+  		<ImageView
+	    	android:layout_width="120dip"
+	    	android:layout_height="170dip"
+	    	android:layout_gravity="center"
+	    	android:padding="5dp"
+	    	android:layout_weight="0.5"
+	    	android:src="@drawable/b"/>
+  	</LinearLayout>
+  	</LinearLayout>
+   </ScrollView>
+</LinearLayout>

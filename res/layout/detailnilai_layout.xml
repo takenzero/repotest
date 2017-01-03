@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:padding="10dp"
+  android:layout_height="wrap_content"
+  android:background="@drawable/background">
+
+  <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="NILAI TUGAS / QUIZ"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#000000"/>
+ 
+  <TableLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:paddingRight="5dp"
+     android:layout_marginTop="20dp">
+    <TableRow
+        android:layout_marginBottom="5dp">
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+      	android:text="Matapelajaran"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+      	android:text="   :  "
+        android:textColor="#000000"/>
+  	<TextView
+  	    android:id="@+id/dnilai_matapelajaran"
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	</TableRow>
+  	<TableRow
+  	    android:layout_marginBottom="5dp">
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+      	android:text="Judul Topik"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+      	android:text="   :  "
+        android:textColor="#000000"/>
+  	<TextView
+  	    android:id="@+id/dnilai_topik"
+      	android:layout_width="wrap_content"
+        android:textSize="15sp"
+      	android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	</TableRow>
+  	</TableLayout>
+  	<LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="2dp"
+    	android:orientation="vertical"
+    	android:background="#3b3b3b" />
+  	
+  	<TableLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:paddingRight="5dp"
+     android:layout_marginTop="10dp">
+    <TableRow
+        android:layout_marginBottom="5dp">
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="20sp"
+      	android:layout_height="wrap_content"
+      	android:text="Pilihan Ganda"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="20sp"
+      	android:layout_height="wrap_content"
+      	android:text="   :  "
+        android:textColor="#000000"/>
+  	<TextView
+  	    android:id="@+id/dnilai_pg"
+      	android:layout_width="wrap_content"
+        android:textSize="20sp"
+      	android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textStyle="bold"
+        android:text="-"/>
+  	</TableRow>
+  	<TableRow
+  	    android:layout_marginBottom="5dp">
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="20sp"
+      	android:layout_height="wrap_content"
+      	android:text="Essay"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"/>
+  	<TextView
+      	android:layout_width="wrap_content"
+        android:textSize="20sp"
+      	android:layout_height="wrap_content"
+      	android:text="   :  "
+        android:textColor="#000000"/>
+  	<TextView
+  	    android:id="@+id/dnilai_essay"
+      	android:layout_width="wrap_content"
+        android:textSize="20sp"
+      	android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textStyle="bold"
+        android:text="-"/>
+  	</TableRow>
+  	</TableLayout>
+ </LinearLayout>
